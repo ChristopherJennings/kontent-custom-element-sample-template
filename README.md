@@ -10,7 +10,7 @@ This is a [custom element](https://docs.kontent.ai/tutorials/develop-apps/integr
     * See [deploying section](#Deploying) for a really quick option
 1. Follow the instructions in the [Kentico Kontent documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrating-your-own-content-editing-features#a-3--displaying-a-custom-element-in-kentico-kontent) to add the element to a content model.
     * The `Hosted code URL` is where you deployed to in step 1
-    * If necessary, pass the necessary parameters as directing in the [JSON Parameters configuration](#json-parameters) seciton of this readme.
+    * If necessary, pass the necessary parameters as directing in the [JSON Parameters configuration](#json-parameters) section of this readme.
 
 ## Deploying
 
@@ -34,9 +34,9 @@ Document any necessary JSON parameters here. Provide a sample like the one below
 }
 ```
 
-## What is Saved?
+## Saved Value
 
-The JSON object returned from the Deliver API matches the following signature:
+The value is saved as a string representing a JSON object. When deserialized, it will look like:
 
 ```Json
 {
@@ -46,3 +46,7 @@ The JSON object returned from the Deliver API matches the following signature:
   }
 }
 ```
+
+## Contributors
+
+Originally contributed by [@{USER}](https://github.com/{USER}/)
